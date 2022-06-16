@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 
 public class Malachai {
 	public static void main(String[] args) {
+		// updated
 		String sheetName = "Reg";
 		int rowNumber = 1;
 		String name = ExcelLibrary.getStringData(sheetName, rowNumber, 0);
